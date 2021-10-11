@@ -1,0 +1,25 @@
+
+/* Document
+   ========================================================================== */
+
+  *{
+    font-family: Roboto, sans-serif;
+  }
+
+  body::-webkit-scrollbar {
+    background: rgba(196, 196, 196, 1);
+    width: 6px;
+    opacity: 0;
+    display: none;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 0px;
+    opacity: 0;
+  }
+
+  body::-webkit-scrollbar-thumb:hover{
+    background-color: transparent;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0);
+  }

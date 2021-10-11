@@ -1,0 +1,11 @@
+export const getStateData = (state) => state.getData
+export const getInputText = (state) => state.getInputText
+export const getViewsAllDatas = (state) => state.viewsAllDatas
+export const getConsfigAdvanced = (state) => state.consfigAdvanced
+export const getFilterResultSearch = (state) => state.filterResultSearch
+export const getResultSearch = (state) => state.getResultSearch
+export const getActiveAdvancedModal = (state) => state.activeAdvancedModal
+export const getValidatedFilter = (state) => state.validatedFilter
+export const getStateFilterCategory = (state) => state.stateFilterCategory
+export const getEventActionButtons = (state) => state.eventActionButtons
+export const getFilterResultSearchData = (state) => state.filterResultSearchData
